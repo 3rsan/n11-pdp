@@ -1,0 +1,173 @@
+.review {
+  color: rgb(69, 126, 166);
+  text-decoration: none;
+}
+
+.price > span {
+  font-size: 1rem;
+  color: rgb(187, 187, 187);
+}
+
+.minBarem {
+  font-size: 1rem;
+  color: rgb(187, 187, 187);
+  margin-bottom: 0;
+}
+
+.attributes .attribute {
+  width: 100%;
+  float: left;
+}
+
+.attributes .attribute .title {
+  width: 75px;
+  float: left;
+}
+
+.attributes .attribute .title span {
+  float: right;
+}
+
+.attributes .attribute .attribute-box {
+  float: left;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.attributes .attribute .attribute-box.active {
+  border: 2px solid black;
+}
+
+.attributes .attribute .attribute-box p {
+  line-height: 1.1rem;
+  padding: 0 8px;
+}
+
+.scale-container {
+  margin-top: 20px;
+  height: 222px;
+  background-color: rgb(251, 246, 246);
+}
+
+.scale-container p {
+  margin-top: 15px;
+  float: left;
+}
+
+.scale-item p {
+  width: 115px;
+  margin: 0;
+  padding: 0 5px;
+}
+.scale-item {
+  border-right: 1px solid rgb(180, 176, 176, 0.6);
+  margin: 10px 0px;
+  height: 55px;
+}
+
+.stock-items .item-input {
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stock-quantity {
+  padding: 3px 5px;
+  font-size: 12px;
+  color: #38b649;
+  float: right;
+  margin-right: 20px;
+  margin-top: 6px;
+  background-color: #fafafa;
+  border: 1px solid #38b649;
+  border-radius: 2px;
+}
+
+.item-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.item-text label {
+  text-align: center;
+  margin-top: 0px;
+  width: 98px;
+  float: left;
+}
+
+.item-text label span {
+  float: right;
+}
+
+.stock-items .item-label p {
+  color: gray;
+  margin-top: 7px;
+}
+
+.total-text {
+  text-align: center;
+  margin-top: 5px;
+  width: 123px;
+  float: left;
+}
+.total-text span {
+  float: right;
+}
+
+.cargo p {
+  margin-top: 0px;
+  margin-left: 4px;
+  float: left;
+}
+
+.cargo a {
+  text-decoration: none;
+}
+.cargo div {
+  float: left;
+}
+
+.cargo p:last-child {
+  color: rgb(63, 112, 210);
+}
+
+.add-to-cart {
+  border-radius: 4px;
+  background-color: rgb(255, 204, 20);
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  width: 247px;
+  line-height: 45px;
+  height: 61px;
+  float: left;
+}
+
+.payment-options {
+  text-decoration: none;
+  float: left;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 80px;
+  height: 80px;
+}
+
+.scale-item.active {
+  background-color: rgb(255, 230, 121);
+}
+
+.disabled {
+  opacity: 0.4;
+}
